@@ -1,1 +1,191 @@
-/* Your stylesheet goes here */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,300");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,300italic");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+* {
+	font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+body {
+	background-color: #E9EAEE;
+}
+
+#ourstory {
+	background-color: #dbdce3;
+}
+
+#ourstoryimg {
+	max-height: 300px;
+	margin-left: 1em;
+	float: right;
+	border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Raleway, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#navbar {
+	position: fixed;
+	background-color: #181C22;
+	border-radius:0px;
+	z-index: 1;
+	width: 100%;
+}
+
+h2 {
+	color: #BC6026;
+}
+
+.svg {
+	height: 1em;
+}
+
+ul {
+	margin-left: 15px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+li {
+	display: inline-block;
+	padding: .5em;
+}
+
+/*work on padding*/
+
+#navlink {
+	color:white;
+	font-variant: small-caps;
+}
+
+#div2img {
+	display: none;
+}
+
+#div2p {
+	font-style: italic;
+}
+
+/*fix hover*/
+#navlink:hover {
+	color: #D87E28;
+	text-decoration: none;
+}
+
+h1 {
+	padding-top: 3em;
+}
+
+#cafeinformation {
+	background-color: #dbdce3;
+	text-align: center;
+}
+
+#cafeinformationmap {
+	border-radius: 5px;
+}
+
+dd {
+	font-style: italic;
+	padding-left: 1em;
+}
+
+#footer {
+	border-top: 3px solid #D87E28;
+	background-color: #afb3c2;
+	clear: both;
+}
+
+.footer_text {
+	font-size: 12px;
+	padding-top: 1em;
+}
+
+#motto {
+	display: none;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	* {
+		font-size: 20px;
+	}
+
+	h1 {
+		color: white;
+		text-align: right;
+		min-height: 556px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	#navbar {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	#header {
+		background: url("../img/background-sm.jpg");
+		background-repeat: no-repeat;
+	}
+
+	#navlink {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#headline {
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+
+	#ourstoryimg {
+		max-height: 400px
+	}
+
+	#block2 {
+		text-align: right;
+	}
+
+	#motto {
+		display: block;
+	}
+
+	#div2img {
+		display: inline;
+		height: 1.5em;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 4em;
+		min-height: 673px;
+	}
+
+	#header {
+		background: url("../img/background-md.jpg");
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#header {
+		background: url("../img/background-lg.jpg");
+		background-repeat: no-repeat;
+		min-height: 1014px;
+	}
+}

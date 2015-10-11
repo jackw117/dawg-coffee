@@ -1,1 +1,131 @@
-<!-- Your home page goes here -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Jack Whitesell">
+        <meta name="description" content="A website for the coffee shop called Dawg Coffee">
+
+        <link rel="shortcut icon" href="img\page-icon.png">
+        <link rel="stylesheet" href="css\main.css">
+
+        <title>Dawg Coffee</title>
+    </head>
+
+    <body>
+        <nav id= "navbar">
+            <ul>
+                <li><a id="navlink" href="#header"><img class="svg" src="svg/brand.svg" alt="coffee icon"></img></a></li>
+                <li><a id="navlink" href="#cafeinformation">cafe</a></li>
+                <li><a id="navlink" href="#menu">menu</a></li>
+                <li><a id="navlink" href="#ourstory">story</a></li>
+                <li><a id="navlink" href="order.html">order</a></li>
+            </ul>
+        </nav>
+
+        <div id="header" class="container">
+            <h1>Dawg Coffee
+                <p id="motto">Caffeinating Sleepy Huskies Since 2015</p>
+            </h1>
+        </div>
+
+        <div class="container" id="headline">
+            <h2>
+                <img id="div2img" class="svg" src="svg/brand.svg" alt="coffee icon"></img>
+            </h2>
+            <p id="div2p">Exquisite drinks made from fair-trade coffee, served in a relaxing and studious environment</p>
+        </div>
+
+        <div class="container text-center" id="cafeinformation">
+            <div class="col-md-4">
+                <h2>
+                    <img class="svg" src="svg/hours.svg" alt="hours svg"></img>
+                </h2>
+                <p>Mon-Fri: 7am&ndash;7pm</p>
+                <p>Sat-Sun: 9am&ndash;7pm</p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    <img class="svg" src="svg/location.svg" alt="location svg"></img>
+                </h2>
+                <p>
+                    <a href="https://www.google.com/maps/place/4214+University+Way+NE,+Seattle,+WA+98105" target="_blank"><img id="cafeinformationmap" src="img/map.png" alt="map"></img></a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    <img class="svg" src="svg/contact.svg" alt="contact svg">
+                </h2>
+                <p>
+                    <i class="fa fa-envelope">
+                        <a href="mailto:dawgcoffee@gmail.com">dawgcoffee@gmail.com</a>
+                    </i>
+                </p>
+                <p>
+                    <i class="fa fa-phone">
+                        <a href="tel:206-555-1212">206-555-1212</a>
+                    </i>
+                </p>
+                <p>
+                    <i class="fa fa-twitter">
+                        <a href="https://twitter.com/dawgcoffee">@dawgcoffee</a>
+                    </i>
+                </p>
+            </div>
+        </div>
+
+        <div class="container" id="menu">
+            <h2>Menu</h2>
+            <div class="col-sm-6">
+                <h3>Drinks</h3>
+                <dl>
+                    <dt>Espresso</dt>
+                    <dd>dark and rich, pulled with care</dd>
+                    <dt>Latte</dt>
+                    <dd>milky and sweet, with various syrups and toppings</dd>
+                    <dt>Mocha</dt>
+                    <dd>chocolate, milk, and espresso, what could be better?</dd>
+                </dl>
+            </div>
+            <div class="col-sm-6">
+                <h3>Treats</h3>
+                <dl>
+                    <dt>Muffins &#38; Scones</dt>
+                    <dd>banana, blueberry, chocolate, and pumpkin</dd>
+                    <dt>Cookies</dt>
+                    <dd>chocolate chunk, peanut butter, oatmeal</dd>
+                    <dt>Breads</dt>
+                    <dd>zucchini, banana, lemon, ginger</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div id="ourstory" class="container">
+            <h2>Our Story</h2>
+            <img id="ourstoryimg" src="img/story.jpg" alt="woman with book in cafe"></img>
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.</p>
+            <p>His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+            <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. "How about if I sleep a little bit longer and forget all this nonsense", he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state couldn't get into that position.</p>
+        </div>
+
+        <div id="footer" class="container">
+            <footer>
+                <div id="block1" class="col-sm-3">
+                    <p class="footer_text">&#169;2015 Dawg Coffee</p>
+                </div>
+                <div id="block2"class="col-sm-9">
+                    <p class="footer_text">Icons by 
+                        <a class="footer_text" href="http://www.freepik.com" title="Freepik">Freepik</a>, 
+                        <a class="footer_text" href="http://www.bogdanrosu.com" title="Bogdan Rosu">Bogdan Rosu</a>
+                        from 
+                        <a class="footer_text" href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> 
+                        is licensed under 
+                        <a class="footer_text" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
