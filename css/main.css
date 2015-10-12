@@ -47,8 +47,6 @@ li {
 	display: inline-block;
 }
 
-/*work on padding*/
-
 .navlink {
 	color:white;
 	font-variant: small-caps;
@@ -63,7 +61,6 @@ li {
 	font-style: italic;
 }
 
-/*fix hover*/
 .navlink:hover {
 	color: #D87E28;
 	text-decoration: none;
