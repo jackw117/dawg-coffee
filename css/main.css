@@ -3,14 +3,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,300italic");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
-* {
+body {
+	background-color: #E9EAEE;
 	font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-}
-
-body {
-	background-color: #E9EAEE;
 }
 
 #ourstory {
@@ -40,11 +37,7 @@ h2 {
 	color: #BC6026;
 }
 
-.svg {
-	height: 1em;
-}
-
-ul {
+#navlist {
 	margin-left: 15px;
 	list-style: none;
 	padding-left: 0px;
@@ -52,14 +45,14 @@ ul {
 
 li {
 	display: inline-block;
-	padding: .5em;
 }
 
 /*work on padding*/
 
-#navlink {
+.navlink {
 	color:white;
 	font-variant: small-caps;
+	padding: .5em;
 }
 
 #div2img {
@@ -71,7 +64,7 @@ li {
 }
 
 /*fix hover*/
-#navlink:hover {
+.navlink:hover {
 	color: #D87E28;
 	text-decoration: none;
 }
@@ -114,6 +107,10 @@ dd {
 	height: 100%;
 }
 
+.svg {
+	height: 1em;
+}
+
 @media screen and (min-width: 768px) {
 	* {
 		font-size: 20px;
@@ -137,9 +134,10 @@ dd {
 	#header {
 		background: url("../img/background-sm.jpg");
 		background-repeat: no-repeat;
+		max-width: 100%;
 	}
 
-	#navlink {
+	.navlink {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
