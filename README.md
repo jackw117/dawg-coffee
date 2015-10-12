@@ -15,4 +15,4 @@ This folder contains your submission for the [responsive challenge](http://facul
 > About 10.
 
 ##### 5. Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better? #####
-> Some of the requirements were ambiguous. I wasn't sure whether to include certain things in my website because they were never mentioned in the instructions, but I could still see that the pictures you gave were slightly different from my website. I think a completed version of the website would help in order to clear up some confusion.
+> Some of the requirements were ambiguous, and a completed version of the website that I could interact with (without seeing the code obviously) would have helped.
