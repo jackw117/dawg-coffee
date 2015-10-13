@@ -10,19 +10,22 @@ body {
 	font-weight: 300;
 }
 
-#ourstory {
-	background-color: #dbdce3;
-}
-
-#ourstoryimg {
-	max-height: 300px;
-	margin-left: 1em;
-	float: right;
-	border-radius: 5px;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Raleway", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+h2 {
+	color: #BC6026;
+	fill: currentColor;
+}
+
+svg {
+	height: 1em;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
 }
 
 #navbar {
@@ -34,22 +37,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 5px;
 }
 
-h2 {
-	color: #BC6026;
-	fill: currentColor;
-}
-
 #navlist {
 	margin-left: 15px;
 	list-style: none;
 	padding-left: 0px;
 }
 
-li {
-	display: inline-block;
-}
-
 .navlink {
+	font-size: 16px;
 	color:white;
 	font-variant: small-caps;
 	padding: .5em;
@@ -57,17 +52,41 @@ li {
 	fill: currentColor;
 }
 
-#div2img {
-	display: none;
-}
-
-#div2p {
-	font-style: italic;
-}
-
 .navlink:hover {
 	color: #D87E28;
 	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+}
+
+#motto {
+	display: none;
+}
+
+#header {
+	padding-top: 3em;
+	padding-right: 3em;
+}
+
+#ourstory {
+	background-color: #dbdce3;
+}
+
+#ourstoryimg {
+	max-height: 300px;
+	margin-left: 1em;
+	float: right;
+	border-radius: 5px;
+}
+
+#headersvg {
+	display: none;
+}
+
+#headertext {
+	font-style: italic;
 }
 
 #cafeinformation {
@@ -95,26 +114,9 @@ dd {
 	padding-top: 1em;
 }
 
-#motto {
-	display: none;
-}
-
-.container {
-	width: 100%;
-	height: 100%;
-}
-
-svg {
-	height: 1em;
-}
-
 /*the contact number doesn't display in the correct font without this*/
 .contact {
 	font-family: "Lato", "Helvetica Neue", "Helvetica", "sans-serif";
-}
-
-#header {
-	padding-top: 3em;
 }
 
 @media screen and (min-width: 768px) {
@@ -134,7 +136,6 @@ svg {
 	#header {
 		background: url("../img/background-sm.jpg");
 		background-repeat: no-repeat;
-		max-width: 100%;
 		background-size: cover;
 		text-align: right;
 		color: white;
@@ -147,7 +148,6 @@ svg {
 	}
 
 	#headline {
-		font-size: 1.25em;
 		text-align: center;
 		margin-top: 3em;
 		margin-bottom: 3em;
@@ -165,10 +165,22 @@ svg {
 		display: inline;
 	}
 
-	#div2img {
+	#headersvg {
 		display: inline;
 		height: 1.5em;
-		margin-bottom: 1em;
+		margin-bottom: 1em;	
+	}
+	
+	#drinks {
+		padding-left: 3em;
+	}
+
+	#headerh2 {
+		margin-top: 0;
+	}
+
+	#headertext {
+		font-size: 1.25em;
 	}
 }
 
