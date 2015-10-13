@@ -12,7 +12,7 @@ This folder contains your submission for the [responsive challenge](http://facul
 > No.
 
 ##### 4. Approximately how many hours did it take you to complete this challenge? #####
-> About 10.
+> About 12. (Most of that time was spent looking up how to do things)
 
 ##### 5. Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better? #####
-> Some of the requirements were ambiguous, and a completed version of the website that I could interact with (without seeing the code obviously) would have helped.
+> Some of the requirements were ambiguous, and a completed version of the website that I could interact with (without seeing the code obviously) would have helped. There were also a lot of html terms that were mentioned, like "section," which I did not realize was an actual tag until later, so being more specific there would be helpful.
